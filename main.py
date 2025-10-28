@@ -17,7 +17,7 @@ app = FastAPI()
 # ======== CORS 설정 (중요) ========
 origins = [
     "http://localhost:3000",
-    "https://opendartscrapperf.vercel.app/"
+    "https://ktng-dart-fe.vercel.app"
 ]
 app.add_middleware(
     CORSMiddleware,
